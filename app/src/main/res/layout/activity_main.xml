@@ -1,0 +1,161 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maths"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/physics"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/physics1"
+                app:border_color="#FF000000"
+                app:border_width="2dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Physics"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/chemistry"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/chemistry"
+                app:border_color="#FF000000"
+                app:border_width="2dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chemistry"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/mathematics"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/math2"
+                app:border_color="#FF000000"
+                app:border_width="2dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematics"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/higherMathematics"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/highermath"
+                app:border_color="#FF000000"
+                app:border_width="2dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HigherMath"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/english"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/chemistry"
+                app:border_color="#FF000000"
+                app:border_width="2dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chemistry"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

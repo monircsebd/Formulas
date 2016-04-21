@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Formulas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_physics">Physics</string>
+    <string name="title_activity_chemistry">Chemistry</string>
+    <string name="title_activity_mathematics">Mathematics</string>
+    <string name="title_activity_higher_mathematics">HigherMathematics</string>
+</resources>
